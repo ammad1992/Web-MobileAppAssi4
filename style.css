@@ -1,0 +1,226 @@
+.navbar {
+    background-color: #78909C !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.fa-user {
+    font-size: 25px !important;
+}
+
+.heading {
+    color: #78909C;
+    font-size: 45px !important;
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.heading1 {
+    color: #78909C;
+    font-size: 45px !important;
+    text-align: center;
+    font-weight: bold !important;
+    margin-bottom: 20px;
+}
+
+.intro {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #ECEFF1;
+}
+
+.leftpara {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card1,
+.card2,
+.card3 {
+    width: 300px;
+    height: 380px;
+    background-color: #78909C;
+    box-shadow: 2px 4px 5px grey;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.mainCard {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: #78909C;
+    height: 300px;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.footerheadings {
+    text-decoration: underline overline;
+}
+
+.footerdivs {
+    padding-top: 30px;
+    width: 30%;
+}
+
+.footerdivs>p {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footerdivs>h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .footer {
+        height: 480px;
+    }
+}
+
+.copyright {
+    background-color: #37474F;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright>h5 {
+    color: white;
+}
+
+.frame {
+    position: absolute;
+    right: 0;
+    top: 9em;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .frame {
+        position: relative;
+        margin-bottom: 100px;
+        width: 100% !important;
+    }
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.text-center {
+    margin-top: 20px !important;
+    color: #78909C;
+}
+
+.btn-primary {
+    background-color: #78909C;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.aboutimg {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.aboutpara {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+    padding-top: 60px;
+}
+
+.aboutmain {
+    background-color: #ECEFF1;
+    padding-bottom: 60px;
+}
+
+li:hover {
+    background-color: rebeccapurple;
+    border-radius: 10px 10px;
+}
+
+.currentpage {
+    background-color: rebeccapurple;
+    border-radius: 10px 10px;
+}
+
+.card-group {
+    margin-top: 100px;
+}
+
+.btn-primary:hover {
+    background-color: rebeccapurple !important;
+}
+
+.serviceCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.servicecard1,
+.servicecard2,
+.servicecard3 {
+    width: 300px;
+    height: 200px;
+    background-color: #78909C;
+    box-shadow: 2px 4px 5px grey;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.fa-certificate,
+.fa-clock-o,
+.fa-money {
+    color: black;
+    font-size: 50px !important;
+}
